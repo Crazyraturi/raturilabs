@@ -1,0 +1,39 @@
+# RaturiLabs Robots.txt
+# Specify rules for search engine crawlers
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin/sensitive areas (if applicable)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Specify sitemap location
+Sitemap: https://raturilabs.com/sitemap.xml
+
+# Set crawl delay (optional, in seconds)
+Crawl-delay: 1
+
+# Rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
